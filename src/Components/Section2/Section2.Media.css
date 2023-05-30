@@ -1,0 +1,44 @@
+@media (min-width: 760px) {
+  .user {
+    display: none;
+  }
+
+  .flag {
+    display: block
+  }
+
+  .stella div {
+    display: flex;
+    gap: 15px;
+  }
+
+  .photography {
+    gap: 20px;
+    margin-bottom: 54px;
+  }
+
+  .today {
+    top: 574px;
+    left: 45%;
+  }
+
+  .box, .kyle {
+    margin: 0;
+  }
+
+  .max {
+    width: 220px;
+    height: 180px;
+
+  }
+
+  .min {
+    width: 220px;
+    height: 180px;
+  }
+
+  .todayBox {
+    padding: 54px 15px 25px 15px;
+  }
+
+}

@@ -1,0 +1,203 @@
+.wrapperMein {
+  display: flex;
+  gap: 2px;
+}
+
+.logo {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  gap: 250px;
+  background: var(--gray);
+}
+
+.iconMein {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #6e6c6c;
+}
+
+.iconPhoto img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.iconMein div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--wife);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconMein1 {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.project {
+  width: 330px;
+  padding: 30px;
+  background: var(--gray);
+}
+
+.meinDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 21px;
+  border-radius: 10px;
+  position: relative;
+  gap: 5px;
+}
+
+.iconAfter {
+  width: 45px;
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.project p {
+  color: var(--blue);
+  font-size: 12px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 24px;
+  left: 220px;
+}
+
+.project .meinDiv:hover {
+  background-color: blue;
+  color: #E4E7F0;
+}
+
+.icon {
+  background-image: url("../Svg/Arrow3Gray.svg");
+  cursor: pointer;
+}
+
+.project .meinDiv:hover > :nth-child(2) {
+  color: var(--wife);
+}
+
+.project .meinDiv:hover > :nth-child(3) {
+  background-image: url("../Svg/Arrow3White.svg");
+}
+
+.iconAfter1 {
+  background-image: url("../Svg/IconMein8Gray.svg");
+}
+
+.project .meinDiv1:hover > :nth-child(1) {
+  background-image: url("../Svg/IconMein8White.svg");
+}
+
+.iconAfter2 {
+  background-image: url("../Svg/IconMein9Gray.svg");
+}
+
+.project .meinDiv2:hover > :nth-child(1) {
+  background-image: url("../Svg/IconMein9White.svg");
+}
+
+.iconAfter3 {
+  background-image: url("../Svg/IconMein10Gray.svg");
+}
+
+.project .meinDiv3:hover > :nth-child(1) {
+  background-image: url("../Svg/IconMein10White.svg");
+}
+
+.iconAfter4 {
+  background-image: url("../Svg/IconMein11Gray.svg");
+}
+
+.project .meinDiv4:hover > :nth-child(1) {
+  background-image: url("../Svg/IconMein11White.svg");
+}
+
+.iconAfter5 {
+  background-image: url("../Svg/IconMein9Gray.svg");
+}
+
+.project .meinDiv5:hover > :nth-child(1) {
+  background-image: url("../Svg/IconMein9White.svg");
+}
+
+.iconAfter6 {
+  background-image: url("../Svg/IconMein12Gray.svg");
+}
+
+.project .meinDiv6:hover > :nth-child(1) {
+  background-image: url("../Svg/IconMein12White.svg");
+}
+
+.iconAfter7 {
+  background-image: url("../Svg/User.svg");
+}
+
+.project .meinDiv7:hover > :nth-child(1) {
+  background-image: url("../Svg/User3.svg");
+}
+
+.iconAfter8 {
+  background-image: url("../Svg/IconMein13Gray.svg");
+}
+
+.project .meinDiv8:hover > :nth-child(1) {
+  background-image: url("../Svg/IconMein13White.svg");
+}
+
+.ulProject {
+  padding: 20px 30px 27px 71px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: var(--blue);
+
+}
+
+.liProject {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.ulProject li {
+  font-size: 12px;
+  width: 120px;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  background-image: url("../Svg/Arrow5Gray.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.liProject:hover {
+  color: rgba(51, 97, 255, 1);
+}
+
+.liProject:hover .arrow {
+  background-image: url("../Svg/Arrow5Blue.svg");
+}

@@ -1,0 +1,204 @@
+:root {
+  --blue: rgba(125, 143, 179, 1);
+  --wife: white;
+  --gray: rgba(245, 246, 247, 1)
+}
+
+.wrapper2 {
+  width: 100%;
+  max-width: 800px;
+  padding: 15px;
+  background: var(--gray);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+}
+
+.wrapper2 p {
+  font-size: 12px;
+  color: var(--blue);
+}
+
+.mein {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--wife);
+  padding: 28px 30px;
+  color: rgba(41, 204, 57, 1);
+  border-radius: 12px 12px 0 0;
+}
+
+.mein a {
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.gap {
+  display: flex;
+  gap: 15px;
+}
+
+.post, .todayBox {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--wife);
+}
+
+.stella {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 13px;
+}
+
+.stella > div {
+  gap: 15px;
+  display: flex;
+}
+
+.stella .stella1 img {
+  width: 40px;
+}
+
+.flag {
+  display: none;
+}
+
+.wrapper2 .gray {
+  color: rgba(77, 94, 128, 1);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.heart {
+  margin-left: 8%;
+  cursor: pointer;
+}
+
+.box, .kyle {
+  width: 92%;
+  max-width: 460px;
+  border: 2px solid var(--gray);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.file {
+  display: flex;
+  font-size: 12px;
+  gap: 15px;
+}
+
+.file .gray {
+  cursor: pointer;
+}
+
+.downloading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.loading {
+  height: 5px;
+  background: var(--gray);
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.blues {
+  width: 1%;
+  border-radius: 5px;
+  border: 2.5px solid rgba(51, 97, 255, 1);
+  z-index: 1;
+}
+
+.photography {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0px;
+}
+
+/*.photography img {*/
+/*  border-radius: 10px;*/
+/*}*/
+
+.today {
+  padding: 5px 15px;
+  border: 2px solid var(--gray);
+  background: var(--wife);
+  border-radius: 15px;
+  position: absolute;
+  top: 555px;
+  left: 40%;
+}
+
+
+.margin {
+  margin-bottom: 0;
+}
+
+.type {
+  display: flex;
+  justify-content: space-between;
+  background: var(--wife);
+  padding: 30px 24px;
+  border-radius: 0 0 12px 12px;
+}
+
+.type div {
+  display: flex;
+  gap: 29px;
+}
+
+.type input {
+  border: none;
+}
+
+.wrapperIcon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.user {
+  background-image: url("../Svg/User2.svg");
+}
+
+.telephone {
+  background-image: url("../Svg/Telephone.svg");
+}
+
+.camera {
+  background-image: url("../Svg/Camera.svg");
+}
+
+.max {
+  width: 145px;
+  height: 155px;
+  background-image: url("../Photo/Photo13.WebP");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 5px;
+}
+
+.min {
+  width: 145px;
+  height: 155px;
+  background-image: url("../Photo/Photo12.WebP");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 5px;
+}

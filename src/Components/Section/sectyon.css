@@ -1,0 +1,130 @@
+
+.wrapper {
+  width: 360px;
+  padding: 15px;
+  background: rgba(247, 248, 250, 1);
+}
+
+.wrapper a {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.messages {
+  background: white;
+  display: flex;
+  padding: 36px 31px;
+  margin-bottom: 2px;
+  border-radius: 12px 12px 0 0;
+}
+
+.messages form {
+  margin: 0 5% 0 12%;
+}
+
+.messages form input {
+  height: 25px;
+  font-size: 13px;
+  color: var(--blue);
+  border: none;
+  background: none;
+}
+
+.data {
+  background: white;
+  padding: 20px 59px 20px 30px;
+}
+
+.direct {
+  display: flex;
+  justify-content: space-between;
+}
+
+.direct p {
+  color: var(--blue);
+}
+
+.photos {
+  padding: 0 59px 0 30px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.photo {
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+}
+
+.photo div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.photo p {
+  font-size: 12px;
+  color: var(--blue);
+}
+
+.photo .time .green {
+  color: green;
+}
+
+.photo .time .yellow {
+  color: yellow;
+}
+
+
+.button {
+  width: 116px;
+  height: 30px;
+  font-size: 10px;
+  background: none;
+  border: 2px solid rgba(245, 246, 247, 1);
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgba(125, 143, 179, 1);
+}
+
+.channels {
+  padding: 0 59px 0 59px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.how {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: rgba(125, 143, 179, 1);
+  font-size: 12px;
+}
+
+.aig {
+  color: green;
+}
+
+.number {
+  display: flex;
+  gap: 15px;
+}
+
+.channels .button {
+  margin: 20px -30px;
+}
+
+.radius {
+  border-radius: 0 0 12px 12px;
+}
+
+
+.name img {
+  width: 30px;
+  height: 30px;
+}
+

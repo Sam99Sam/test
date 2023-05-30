@@ -1,0 +1,77 @@
+.wrappers {
+  width: 100%;
+  max-width: 1600px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background: rgba(247, 248, 250, 1);
+  padding: 25px;
+  gap: 10px;
+}
+
+.menu {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  cursor: pointer;
+}
+
+.header p {
+  color: var(--blue);
+}
+
+.constructor {
+  margin: 0 25% 0 10%;
+}
+
+.block {
+  display: none;
+}
+
+
+.href1 {
+  display: none;
+}
+
+.block {
+  display: none;
+}
+
+.input {
+  display: none;
+}
+
+.sections {
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard {
+  display: none;
+}
+
+.section {
+  z-index: 10;
+  position: absolute;
+  top: 102px;
+  left: 0;
+}
+
+.section2 {
+  display: none;
+}
+
+.meinMenu {
+  display: none;
+}
